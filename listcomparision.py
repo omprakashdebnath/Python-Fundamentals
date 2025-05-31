@@ -14,7 +14,7 @@ print(newlist)
 
 newlist = [x for x in range(10)]
 print(newlist)
-newlist = ['hello' for x in fruits]
+newlist = ["hello" for x in fruits]
 print(newlist)
 newlist = [x if x != "banana" else "orange" for x in fruits]
 print(newlist)
